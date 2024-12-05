@@ -69,6 +69,25 @@
     border-radius: 8px;
 }
 
+.main-img {
+    display: flex;
+}
+
+.key2 {
+    position: relative;
+    top: 40px;
+    right: 40px;
+    width: 228px;
+}
+
+.key3 {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    width: 228px;
+    top: 40px;
+}
+
 h1 {
     color: #162542;
     font-weight: 900;
@@ -78,6 +97,33 @@ h1 {
     display: flex;
     justify-content: left;
 }
+
+h2 {
+    color: #162542;
+    font-weight: 900;
+    font-size: 36px;
+    width: 300px;
+    font-family: Barlow;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 128px;
+}
+
+.h2-description {
+    color: #7B8BAD;
+    font-weight: 500;
+    font-family: Barlow;
+    font-size: 16px;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+
 
 .key1 {
     position: relative;
@@ -100,5 +146,9 @@ h1 {
 
     .main-content {
         
+    }
+
+    .main-btn {
+        width: 200px;
     }
 }
